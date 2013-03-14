@@ -1,5 +1,13 @@
+
+QT = core gui opengl
+
 HEADERS += \
-    vector.h
+    vector.h \
+    boid.h \
+    glwidget.h
 
 SOURCES += \
-    vector.cpp
+    vector.cpp \
+    boid.cpp \
+    main.cpp \
+    glwidget.cpp
